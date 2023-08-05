@@ -197,7 +197,7 @@
 		},
 		onShareAppMessage: function() {
 			return {
-				title: '微同开源商城',
+				title: '欢乐颂超市',
 				path: '/pages/index/index'
 			}
 		},
