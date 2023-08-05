@@ -34,17 +34,17 @@ CREATE TABLE `sys_region` (
 -- ----------------------------
 -- Records of sys_region
 -- ----------------------------
-INSERT INTO `sys_region` VALUES ('1', '0', '中国', '0', '0');
-INSERT INTO `sys_region` VALUES ('2', '1', '北京市', '1', '11');
-INSERT INTO `sys_region` VALUES ('3', '2', '市辖区', '2', '1101');
-INSERT INTO `sys_region` VALUES ('4', '3', '东城区', '3', '110101');
-INSERT INTO `sys_region` VALUES ('5', '4', '东华门街道', '4', '110101001');
-INSERT INTO `sys_region` VALUES ('6', '4', '景山街道', '4', '110101002');
-INSERT INTO `sys_region` VALUES ('7', '4', '交道口街道', '4', '110101003');
-INSERT INTO `sys_region` VALUES ('8', '4', '安定门街道', '4', '110101004');
-INSERT INTO `sys_region` VALUES ('9', '4', '北新桥街道', '4', '110101005');
-INSERT INTO `sys_region` VALUES ('10', '4', '东四街道', '4', '110101006');
-INSERT INTO `sys_region` VALUES ('11', '4', '朝阳门街道', '4', '110101007');
+INSERT INTO `sys_region` VALUES ('1', '0', '菲律宾', '0', '0');
+INSERT INTO `sys_region` VALUES ('2', '1', '马尼拉', '1', '11');
+INSERT INTO `sys_region` VALUES ('3', '2', '马卡蒂', '2', '1101');
+INSERT INTO `sys_region` VALUES ('4', '3', 'Ayala Center', '3', '110101');
+INSERT INTO `sys_region` VALUES ('5', '4', 'Ayala Avenue', '4', '110101001');
+INSERT INTO `sys_region` VALUES ('6', '4', 'Makati Avenue', '4', '110101002');
+INSERT INTO `sys_region` VALUES ('7', '4', 'Paseo de Roxas', '4', '110101003');
+INSERT INTO `sys_region` VALUES ('8', '4', 'Arnaiz Avenue', '4', '110101004');
+INSERT INTO `sys_region` VALUES ('9', '4', 'Greenbelt', '4', '110101005');
+INSERT INTO `sys_region` VALUES ('10', '4', 'Glorietta', '4', '110101006');
+INSERT INTO `sys_region` VALUES ('11', '4', 'Landmark', '4', '110101007');
 INSERT INTO `sys_region` VALUES ('12', '4', '建国门街道', '4', '110101008');
 INSERT INTO `sys_region` VALUES ('13', '4', '东直门街道', '4', '110101009');
 INSERT INTO `sys_region` VALUES ('14', '4', '和平里街道', '4', '110101010');
@@ -55,7 +55,7 @@ INSERT INTO `sys_region` VALUES ('18', '4', '龙潭街道', '4', '110101014');
 INSERT INTO `sys_region` VALUES ('19', '4', '体育馆路街道', '4', '110101015');
 INSERT INTO `sys_region` VALUES ('20', '4', '天坛街道', '4', '110101016');
 INSERT INTO `sys_region` VALUES ('21', '4', '永定门外街道', '4', '110101017');
-INSERT INTO `sys_region` VALUES ('22', '3', '西城区', '3', '110102');
+INSERT INTO `sys_region` VALUES ('22', '3', 'Legazpi Village', '3', '110102');
 INSERT INTO `sys_region` VALUES ('23', '22', '西长安街街道', '4', '110102001');
 INSERT INTO `sys_region` VALUES ('24', '22', '新街口街道', '4', '110102003');
 INSERT INTO `sys_region` VALUES ('25', '22', '月坛街道', '4', '110102007');
@@ -71,7 +71,7 @@ INSERT INTO `sys_region` VALUES ('34', '22', '广安门内街道', '4', '1101020
 INSERT INTO `sys_region` VALUES ('35', '22', '牛街街道', '4', '110102018');
 INSERT INTO `sys_region` VALUES ('36', '22', '白纸坊街道', '4', '110102019');
 INSERT INTO `sys_region` VALUES ('37', '22', '广安门外街道', '4', '110102020');
-INSERT INTO `sys_region` VALUES ('38', '3', '朝阳区', '3', '110105');
+INSERT INTO `sys_region` VALUES ('38', '3', 'Salcedo Village', '3', '110105');
 INSERT INTO `sys_region` VALUES ('39', '38', '建外街道', '4', '110105001');
 INSERT INTO `sys_region` VALUES ('40', '38', '朝外街道', '4', '110105002');
 INSERT INTO `sys_region` VALUES ('41', '38', '呼家楼街道', '4', '110105003');
