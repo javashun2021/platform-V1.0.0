@@ -82,8 +82,8 @@
                 },
                 "oauth" : {
                     "weixin" : {
-                        "appid" : "",
-                        "appsecret" : "",
+                        "appid" : "wx4ac2081e70a75a58",
+                        "appsecret" : "a956f2973e81434bc44083bee73a7c1a",
                         "UniversalLinks" : ""
                     },
                     "apple" : {}
