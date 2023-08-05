@@ -17,7 +17,7 @@
 						</view>
 					</view>
 					<view class="condition">
-						<text class="txt">满￥{{item.min_goods_amount}} 减￥{{item.type_money}}</text>
+						<text class="txt">满₱{{item.min_goods_amount}} 减₱{{item.type_money}}</text>
 					</view>
 				</view>
 			</block>

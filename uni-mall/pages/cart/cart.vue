@@ -30,7 +30,7 @@
 									</view>
 									<view class="attr">{{ isEditCart ? '已选择:' : ''}}{{item.goods_specifition_name_value||''}}</view>
 									<view class="b">
-										<text class="price">￥{{item.retail_price}}</text>
+										<text class="price">₱{{item.retail_price}}</text>
 										<view class="selnum">
 											<view class="cut" @tap="cutNumber" :data-item-index="index">-</view>
 											<input :value="item.number" class="number" :disabled="true" type="number" />
@@ -45,7 +45,7 @@
 			</view>
 			<view class="cart-bottom">
 				<view :class="'checkbox ' + (checkedAllStatus ? 'checked' : '')" @tap="checkedAll">全选({{cartTotal.checkedGoodsCount}})</view>
-				<view class="total">{{!isEditCart ? '￥'+cartTotal.checkedGoodsAmount : ''}}</view>
+				<view class="total">{{!isEditCart ? '₱'+cartTotal.checkedGoodsAmount : ''}}</view>
 				<view class="delete" @tap="editCart">{{!isEditCart ? '编辑' : '完成'}}</view>
 				<view class="checkout" @tap="deleteCart" v-if="isEditCart">删除所选</view>
 				<view class="checkout" @tap="checkoutOrder" v-if="!isEditCart">下单</view>

@@ -4,7 +4,7 @@
 			<view class="item-a">下单时间：{{orderInfo.add_time}}</view>
 			<view class="item-b">订单编号：{{orderInfo.order_sn}}</view>
 			<view class="item-c">
-				<view class="l">实付：<text class="cost">￥{{orderInfo.actual_price}}</text></view>
+				<view class="l">实付：<text class="cost">₱{{orderInfo.actual_price}}</text></view>
 				<view class="r">
 					<view v-if="orderInfo.handleOption.pay">
 						<view class="btn" @tap="cancelOrder">取消订单</view>
@@ -37,7 +37,7 @@
 							<text class="number">x{{item.number}}</text>
 						</view>
 						<view class="attr">{{item.goods_specifition_name_value||''}}</view>
-						<view class="price">￥{{item.retail_price}}</view>
+						<view class="price">₱{{item.retail_price}}</view>
 					</view>
 				</view>
 			</view>
@@ -54,16 +54,16 @@
 			<view class="total">
 				<view class="t">
 					<text class="label">商品合计：</text>
-					<text class="txt">￥{{orderInfo.goods_price}}</text>
+					<text class="txt">₱{{orderInfo.goods_price}}</text>
 				</view>
 				<view class="t">
 					<text class="label">运费：</text>
-					<text class="txt">￥{{orderInfo.freight_price}}</text>
+					<text class="txt">₱{{orderInfo.freight_price}}</text>
 				</view>
 			</view>
 			<view class="pay-fee">
 				<text class="label">实付：</text>
-				<text class="txt">￥{{orderInfo.actual_price}}</text>
+				<text class="txt">₱{{orderInfo.actual_price}}</text>
 			</view>
 		</view>
 	</view>

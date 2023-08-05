@@ -16,7 +16,7 @@
 					<view class="c">
 						<text class="name">{{goods.name||''}}</text>
 						<text class="desc">{{goods.goods_brief||''}}</text>
-						<text class="price">￥{{goods.retail_price||'0'}}</text>
+						<text class="price">₱{{goods.retail_price||'0'}}</text>
 						<view class="brand" v-if="brand.name">
 							<navigator :url="'../brandDetail/brandDetail?id='+ brand.id">
 								<text>{{brand.name}}</text>
@@ -96,7 +96,7 @@
 							<navigator :url="'/pages/goods/goods?id='+item.id">
 								<image class="img" :src="item.list_pic_url" background-size="cover"></image>
 								<text class="name">{{item.name}}</text>
-								<text class="price">￥{{item.retail_price}}</text>
+								<text class="price">₱{{item.retail_price}}</text>
 							</navigator>
 						</view>
 					</view>
@@ -108,7 +108,7 @@
 					<image class="img" :src="goods.list_pic_url"></image>
 					<view class="info">
 						<view class="c">
-							<view class="p">价格：￥{{goods.retail_price}}</view>
+							<view class="p">价格：₱{{goods.retail_price}}</view>
 							<view class="a" v-if="productList.length>0">已选择：{{checkedSpecText}}</view>
 						</view>
 					</view>

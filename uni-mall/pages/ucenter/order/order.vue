@@ -17,7 +17,7 @@
 					<view class="status"></view>
 				</view>
 				<view class="b">
-					<view class="l">实付：￥{{item.actual_price||''}}</view>
+					<view class="l">实付：₱{{item.actual_price||''}}</view>
 					<view class="r">
 						<button class="btn" :data-order-index="index" @click.stop.prevent="payOrder" v-if="item.handleOption.pay">立即支付</button>
 					</view>

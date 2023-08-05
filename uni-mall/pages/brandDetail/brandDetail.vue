@@ -21,7 +21,7 @@
 					<navigator :class="'item ' + (iindex % 2 == 0 ? 'item-b' : '')" :url="'../goods/goods?id='+iitem.id">
 						<image class="img" :src="iitem.list_pic_url" background-size="cover"></image>
 						<text class="name">{{iitem.name||''}}</text>
-						<text class="price">￥{{iitem.retail_price||0}}</text>
+						<text class="price">₱{{iitem.retail_price||0}}</text>
 					</navigator>
 				</block>
 			</view>

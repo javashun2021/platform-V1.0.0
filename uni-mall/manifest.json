@@ -1,5 +1,5 @@
 {
-    "name" : "欢乐颂商城",
+    "name" : "欢乐颂超市",
     "appid" : "__UNI__EAADE10",
     "description" : "减少重复造轮子，开源微信小程序商城，秒杀、优惠券、多商户、直播卖货、分销等功能。快速搭建一个属于自己的微信小程序商城。QQ交流群：66502035、870579539、151602347欢迎大家进群交流技术。",
     "versionName" : "1.0.0",
@@ -176,7 +176,7 @@
         "usingComponents" : true,
         "permission" : {
             "scope.userLocation" : {
-                "desc" : "你的位置信息将用于欢乐颂商城"
+                "desc" : "你的位置信息将用于欢乐颂超市"
             }
         },
         "plugins" : {
@@ -209,7 +209,7 @@
         "enable" : false
     },
     "h5" : {
-        "title" : "欢乐颂商城-uniapp版",
+        "title" : "欢乐颂超市-uniapp版",
         "sdkConfigs" : {
             "maps" : {
                 "qqmap" : {

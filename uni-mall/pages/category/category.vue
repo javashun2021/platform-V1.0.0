@@ -19,7 +19,7 @@
 					 :key="iindex">
 						<image class="img" :src="iitem.list_pic_url" background-size="cover"></image>
 						<text class="name">{{iitem.name||''}}</text>
-						<text class="price">￥{{iitem.retail_price||''}}</text>
+						<text class="price">₱{{iitem.retail_price||''}}</text>
 					</navigator>
 				</view>
 			</view>

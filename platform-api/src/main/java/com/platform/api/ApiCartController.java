@@ -94,12 +94,12 @@ public class ApiCartController extends ApiBaseAction {
                 }
                 if (couponVo.getSend_type() == 7 && difDec.doubleValue() > 0.0) {
                     CouponInfoVo cpVo = new CouponInfoVo();
-                    cpVo.setMsg("满￥" + couponVo.getMin_amount() + "元免配送费，还差" + difDec + "元");
+                    cpVo.setMsg("满₱" + couponVo.getMin_amount() + "元免配送费，还差" + difDec + "元");
                     cpVo.setType(1);
                     couponInfoList.add(cpVo);
                 } else if (couponVo.getSend_type() == 7) {
                     CouponInfoVo cpVo = new CouponInfoVo();
-                    cpVo.setMsg("满￥" + couponVo.getMin_amount() + "元免配送费");
+                    cpVo.setMsg("满₱" + couponVo.getMin_amount() + "元免配送费");
                     couponInfoList.add(cpVo);
                 }
             }

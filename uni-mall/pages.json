@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "欢乐颂商城",
+			"navigationBarTitleText": "欢乐颂超市",
 			"enablePullDownRefresh": true,
 			"onReachBottomDistance": 50
 		}
@@ -339,7 +339,7 @@
 		}
 	},
 	"globalStyle": {
-		"navigationBarTitleText": "欢乐颂商城",
+		"navigationBarTitleText": "欢乐颂超市",
 		"backgroundTextStyle": "dark",
 		"navigationBarBackgroundColor": "#fff",
 		"navigationBarTextStyle": "black",
