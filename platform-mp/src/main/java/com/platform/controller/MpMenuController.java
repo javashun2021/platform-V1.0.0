@@ -46,7 +46,7 @@ public class MpMenuController {
         WxMenuButton mainBtn1 = new WxMenuButton();
         mainBtn1.setName("官网");
         mainBtn1.setType(WxConsts.MenuButtonType.VIEW);
-        mainBtn1.setUrl("http://fly2you.cn");
+        mainBtn1.setUrl("http://xn--fjq959a70jdq7a3ql.com");
 
         WxMenuButton btn21 = new WxMenuButton();
         btn21.setName("便利主义超市");

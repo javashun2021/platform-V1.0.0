@@ -1,6 +1,6 @@
 const utils = {
 	// 域名
-	domain: 'https://fly2you.cn/',
+	domain: 'https://xn--fjq959a70jdq7a3ql.com/',
 	// domain: 'http://192.168.1.3:8080/',
 	//接口地址
 	interfaceUrl: function() {

@@ -61,7 +61,7 @@ public class MsgHandler extends AbstractHandler {
         item.setDescription("签到表单");
         item.setPicUrl("https://mmbiz.qlogo.cn/mmbiz_jpg/rFTQWsGze4G89XqNehSdSBGt1ic6ricfgBvaxnXGhsicia3xhIaKJB0hWMIqDXqLXC3OmBKnwfMiaXaBbrECialjOJiaQ/0?wx_fmt=jpeg");
         item.setTitle("签到");
-        item.setUrl("https://fly2you.cn");
+        item.setUrl("https://xn--fjq959a70jdq7a3ql.com");
 
         WxMpXmlOutNewsMessage m = WxMpXmlOutMessage.NEWS()
                 .fromUser(wxMessage.getToUser())
@@ -77,7 +77,7 @@ public class MsgHandler extends AbstractHandler {
         item.setDescription("发送弹幕");
         item.setPicUrl("https://mmbiz.qlogo.cn/mmbiz_jpg/rFTQWsGze4G89XqNehSdSBGt1ic6ricfgBfr8ThJnpIIibwpPhGjGrKpraiaNULFLfv238cC3sIxgCYZza6TYLKicBg/0?wx_fmt=jpeg");
         item.setTitle("评论上墙");
-        item.setUrl("https://fly2you.cn");
+        item.setUrl("https://xn--fjq959a70jdq7a3ql.com");
 
         WxMpXmlOutNewsMessage m = WxMpXmlOutMessage.NEWS()
                 .fromUser(wxMessage.getToUser())
@@ -93,7 +93,7 @@ public class MsgHandler extends AbstractHandler {
         item.setDescription("年会节目单");
         item.setPicUrl("https://mmbiz.qlogo.cn/mmbiz/bVoOkrvEGHqgetjIc7VcFoCWgLCNaTOnZaXvR9J04EgxMfbm3WM9OreMfTcMcKN8UFkWtDwUbiatU7Qtxsutglg/0?wx_fmt=png");
         item.setTitle("节目单");
-        item.setUrl("https://fly2you.cn");
+        item.setUrl("https://xn--fjq959a70jdq7a3ql.com");
 
         WxMpXmlOutNewsMessage m = WxMpXmlOutMessage.NEWS()
                 .fromUser(wxMessage.getToUser())
@@ -109,7 +109,7 @@ public class MsgHandler extends AbstractHandler {
         item.setDescription("来投票吧");
         item.setPicUrl("https://mmbiz.qlogo.cn/mmbiz_jpg/rFTQWsGze4EdewBW92AAD6Ap8ydAQrgBnndVMdAIXB4CmGiaGiassibiaKhWID6icmdMg3kvWSejFd5omyUdjcvb0GA/0?wx_fmt=jpeg");
         item.setTitle("投票");
-        item.setUrl("https://fly2you.cn");
+        item.setUrl("https://xn--fjq959a70jdq7a3ql.com");
 
         WxMpXmlOutNewsMessage m = WxMpXmlOutMessage.NEWS()
                 .fromUser(wxMessage.getToUser())
