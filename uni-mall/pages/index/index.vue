@@ -197,7 +197,7 @@
 		},
 		onShareAppMessage: function() {
 			return {
-				title: '欢乐颂超市',
+				title: '爱丁迪娜',
 				path: '/pages/index/index'
 			}
 		},

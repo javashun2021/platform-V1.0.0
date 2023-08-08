@@ -1,5 +1,5 @@
 {
-    "name" : "欢乐颂超市",
+    "name" : "爱丁迪娜",
     "appid" : "__UNI__EAADE10",
     "description" : "随便买了点做饭的调料，食材啥的，还有火锅底料，过两天叫朋友来家里吃饭好了，要来吗？哈哈。主要是外面吃饭真的好贵啊！！超市还有好多地道小吃，感觉发现了新大陆！好有家的味道啊~~ ",
     "versionName" : "1.0.0",
@@ -176,7 +176,7 @@
         "usingComponents" : true,
         "permission" : {
             "scope.userLocation" : {
-                "desc" : "你的位置信息将用于欢乐颂超市"
+                "desc" : "你的位置信息将用于爱丁迪娜"
             }
         },
         "plugins" : {
@@ -209,7 +209,7 @@
         "enable" : false
     },
     "h5" : {
-        "title" : "欢乐颂超市-uniapp版",
+        "title" : "爱丁迪娜-uniapp版",
         "sdkConfigs" : {
             "maps" : {
                 "qqmap" : {

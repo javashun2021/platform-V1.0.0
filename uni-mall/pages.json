@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "欢乐颂超市",
+			"navigationBarTitleText": "爱丁迪娜",
 			"enablePullDownRefresh": true,
 			"onReachBottomDistance": 50
 		}
@@ -339,7 +339,7 @@
 		}
 	},
 	"globalStyle": {
-		"navigationBarTitleText": "欢乐颂超市",
+		"navigationBarTitleText": "爱丁迪娜",
 		"backgroundTextStyle": "dark",
 		"navigationBarBackgroundColor": "#fff",
 		"navigationBarTextStyle": "black",

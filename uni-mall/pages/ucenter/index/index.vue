@@ -69,7 +69,7 @@
 				</navigator>
 			</view>
 		</view>
-		<view class='company'>麦嘟(夏门)国际贸易有限公司提供技术支持 © xn--fjq959a70jdq7a3ql.com</view>
+		<view class='company'>夏门爱丁迪娜科技有限公司提供技术支持 © xn--fjq959a70jdq7a3ql.com</view>
 		<view class="logout" v-if="userInfo.userName!='点击去登录'" @tap="exitLogin">退出登录</view>
 	</view>
 </template>
